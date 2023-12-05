@@ -1,0 +1,87 @@
+import React from "react";
+import { Tabs, Tab, TabList, TabPanel } from "react-tabs";
+
+const ProductFooter = () => {
+  return (
+    <Tabs className="text-center text-dark p-10">
+      <TabList className="flex justify-center gap-20 border-b border-gray">
+        <Tab className="xs:text-1rem sm:text-1.2rem md:text-1.6rem lg:text-2.4rem focus:outline-0 cursor-pointer ">one</Tab>
+        <Tab className="xs:text-1rem sm:text-1.2rem md:text-1.6rem lg:text-2.4rem focus:outline-0 cursor-pointer">two</Tab>
+        <Tab className="xs:text-1rem sm:text-1.2rem md:text-1.6rem lg:text-2.4rem focus:outline-0 cursor-pointer">
+          three
+        </Tab>
+      </TabList>
+      <TabPanel className="sm:w-4/4 md:w-3/4 lg:w-2/4 m-auto xs:text-1rem sm:text-1.2rem md:text-1.6rem lg:text-1.8rem text-left pt-10">
+        <p>
+          The LG C2 42 (106cm) 4K Smart OLED evo TV is the best all-around OLED
+          TV we've tested. Although all OLEDs deliver similar fantastic picture
+          quality, this one stands out for its value because it has many
+          gaming-oriented features that are great for gamers.
+        </p>
+        <p className="py-10">
+          *Only 65G2 is shown in the image for example purposes. All 2022 LG
+          OLED models feature eco-friendly packaging. **65C2 Stand model is at a
+          minimum 39% lighter than the C1 series. ***The 'Reducing CO2'
+          footprint label applies to 65C2 only. All other C2 models feature a
+          'CO2 Measured' label. ****UL ECV certification based on TV frame and
+          back cover. Percentage of recycled content varies by model and
+          size.More ...
+        </p>
+      </TabPanel>
+      <TabPanel className="sm:w-4/4 md:w-3/4 lg:w-2/4 m-auto xs:text-1rem sm:text-1.2rem md:text-1.6rem lg:text-1.8rem text-left pt-10">
+        <p>
+          Officiis Velit architecto quibusdam saepe, ipsam eveniet animi aut
+          beatae, adipisci alias unde voluptatem deleniti aliquid harum
+          voluptate voluptas. Porro debitis optio in?
+        </p>
+        <p className="py-10">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae,
+          expedita aut asperiores excepturi itaque aperiam aliquid amet sapiente
+          ab eaque harum enim facere at? Doloribus maiores ipsam sequi,
+          quibusdam id ut eaque repellendus dolore molestiae harum soluta!
+          Dolore earum, quam soluta architecto cumque natus dignissimos veniam
+          totam reprehenderit! Assumenda maiores omnis ipsa doloremque, vero
+          veritatis voluptas! Repudiandae, officia quis natus, sed vitae amet
+          omnis nobis nostrum non impedit voluptas quas exercitationem dolor!
+          Cumque natus, temporibus alias ipsam optio sequi placeat repellat
+          corporis voluptatem ab reiciendis labore quibusdam assumenda iste
+          culpa consequuntur, distinctio nemo hic dolorum soluta, corrupti
+          omnis. Optio, dolore?
+        </p>
+      </TabPanel>
+      <TabPanel className="sm:w-4/4 md:w-3/4 lg:w-2/4 m-auto xs:text-1rem sm:text-1.2rem md:text-1.6rem lg:text-1.8rem text-left pt-10">
+        <p>
+          {" "}
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+          temporibus et dolorum eius, repudiandae hic sunt alias natus impedit
+          repellat voluptatem unde nesciunt quas quaerat aliquam facere
+          perspiciatis magni accusamus nemo ex voluptatum iusto reiciendis
+          eaque. Saepe vitae natus omnis unde ipsam, aut placeat hic enim
+          consequuntur sequi architecto ea doloremque earum modi voluptatibus?
+          Expedita illo nobis, soluta voluptatibus deserunt dolore tempora
+          accusamus omnis laudantium unde maxime optio odit iusto libero,
+          architecto maiores id iste veniam iure nostrum. Sunt doloribus
+          distinctio porro inventore voluptatem? Repellendus, totam architecto
+          sed accusamus officia veniam at nam facere iusto nulla asperiores nisi
+          quae. Asperiores.
+        </p>
+        <p className="py-10">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae,
+          expedita aut asperiores excepturi itaque aperiam aliquid amet sapiente
+          ab eaque harum enim facere at? Doloribus maiores ipsam sequi,
+          quibusdam id ut eaque repellendus dolore molestiae harum soluta!
+          Dolore earum, quam soluta architecto cumque natus dignissimos veniam
+          totam reprehenderit! Assumenda maiores omnis ipsa doloremque, vero
+          veritatis voluptas! Repudiandae, officia quis natus, sed vitae amet
+          omnis nobis nostrum non impedit voluptas quas exercitationem dolor!
+          Cumque natus, temporibus alias ipsam optio sequi placeat repellat
+          corporis voluptatem ab reiciendis labore quibusdam assumenda iste
+          culpa consequuntur, distinctio nemo hic dolorum soluta, corrupti
+          omnis. Optio, dolore?
+        </p>
+      </TabPanel>
+    </Tabs>
+  );
+};
+
+export default ProductFooter;
